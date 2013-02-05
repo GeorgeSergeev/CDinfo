@@ -37,9 +37,6 @@ public class CD implements CDinfo {
 		return Title;
 	}
 
-	public String getfTitle() {
-		return Title;
-	}
 
 	public void setTitle(String fTitle) {
 		this.Title = Title;

@@ -35,7 +35,7 @@ class soldCD extends CD implements Comparable <soldCD>
 		// TODO Auto-generated method stub
 		  String otherArtist = ((soldCD) arg).getArtist();
 		  int res=this.getArtist().compareTo(otherArtist);
-		  if (res==0) res=this.getfTitle().compareTo(otherArtist);
+		  if (res==0) res=this.getTitle().compareTo(otherArtist);
           return res;
 	}
 	
